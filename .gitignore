@@ -1,0 +1,7 @@
+.DS_Store
+*~
+*.old
+*.save
+*.sock
+private/*
+cache/*
