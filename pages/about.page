@@ -6,23 +6,39 @@
 image { file: junodefault1000.png; }
 
 sec {
-sec [what is this] {
-	juno is a seriously modern IRC daemon. it is designed to be ridiculously extensible, painlessly reloadable, and excessively configurable.
-	
-	while learning Perl, I discovered pIRCd. I added a few more features to it but created more bugs and memory leaks than features. I decided to start over from scratch because if I wrote it myself I would understand more how to modify it and work around the issues that I had when I was working on the perl IRC daemon that Jay Kominek wrote 13 years prior. juno is written from scratch, [[multiple times over | doc/history ]]. however, the current codebase dates back to 2011.
-	
-	juno has a lot of features that other IRCds written in compiled languages cannot offer, such as upgrading without restarting and an extremely versatile module interface.
-}
-
-sec [why does this exist] {
-	Perl is the right language for IRC. IRC is chock full of various strings and other what not, all of which is easily parsed by Perl, where the C IRC daemons jump through all kinds of hoops and have really nasty looking code (have you ever looked at the Undernet IRC daemon?) Whereas this is, in my opinion, very clean.
-}
-
-sec [how to get this] {
-	juno stable release can be downloaded from [[here | https://github.com/cooper/juno/releases/latest]].
-
-	You can also clone the git repository and then checkout the release you want. In fact, this is preferred since juno offers easy upgrading from the repository.
-
-	Development can be found on [[github | https://github.com/cooper/juno]].
-}
+    sec [what is this] {
+        juno is a seriously modern IRC daemon. it is designed to be ridiculously
+        extensible, painlessly reloadable, and excessively configurable.
+        	
+        while learning Perl, I discovered pIRCd. I added a few more features to
+        it but created more bugs and memory leaks than features. I decided to
+        start over from scratch because if I wrote it myself I would understand
+        more how to modify it and work around the issues that I had when I was
+        working on the perl IRC daemon that Jay Kominek wrote 13 years prior.
+        juno is written from scratch, [[multiple times over | doc/history ]].
+        however, the current codebase dates back to 2011.
+        	
+        juno has a lot of features that other IRCds written in compiled
+        languages cannot offer, such as upgrading without restarting and an
+        extremely versatile module interface.
+    }
+       
+    sec [why does this exist] {
+        Perl is the right language for IRC. IRC is chock full of various strings
+        and other what not, all of which is easily parsed by Perl, where the C
+        IRC daemons jump through all kinds of hoops and have really nasty looking
+        code (have you ever looked at the Undernet IRC daemon?) Whereas this is,
+        in my opinion, very clean.
+    }
+       
+    sec [how to get this] {
+        juno stable release can be downloaded from
+        [[here | https://github.com/cooper/juno/releases/latest]].
+        
+        You can also clone the git repository and then checkout the release you
+        want. In fact, this is preferred since juno offers easy upgrading from
+        the repository.
+           
+        Development can be found on [[github | https://github.com/cooper/juno]].
+    }
 }
