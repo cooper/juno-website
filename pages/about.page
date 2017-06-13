@@ -1,6 +1,6 @@
-@page.title: about;
-@page.author: Mitchell Cooper;
-@page.created: 1492197580;
+@page.title:      about;
+@page.author:     Mitchell Cooper;
+@page.created:    1492197580;
 -@page.enable.title;
 
 image { file: junodefault1000.png; }
