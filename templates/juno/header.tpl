@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>{{.VisibleTitle}}</title>
-    <link rel="stylesheet" type="text/css" href="/static/wiki.css" />
+    <link rel="stylesheet" type="text/css" href="/static/quiki.css" />
     <link rel="stylesheet" type="text/css" href="{{.StaticRoot}}/style.css" />
     {{with .PageCSS}}
         <style type="text/css">
@@ -15,7 +15,7 @@
     {{end}}
 </head>
 
-<body onload="retinajs()">
+<body>
 <div id="header-bg"></div>
 <div id="container">
 
@@ -29,7 +29,7 @@
             {{if eq .Title "about"}}
 		<h1>juno-ircd</h1>
             {{else}}
-                <img src="{{.StaticRoot}}/junodefault1000.png" alt="juno-ircd" />
+		{{.Logo}}
             {{end}}
         </a>
     </div>

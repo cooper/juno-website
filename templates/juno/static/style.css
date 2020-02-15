@@ -47,7 +47,7 @@ a img {
     color: #fff;
 }
 
-h3.wiki-section-title {
+h3.q-sec-title {
     display: inline-block;
     border-bottom: 1px solid #555;
     line-height: 30px;
@@ -90,45 +90,45 @@ h1,h2 {
 
 
 a,
-.wiki-main a,
-a.wiki-link-other,
-a.wiki-link-internal,
-a.wiki-link-external,
-a.wiki-link-category {
+.q-main a,
+a.q-link-other,
+a.q-link-internal,
+a.q-link-external,
+a.q-link-category {
     color: skyblue;
     text-decoration: none;
 }
 
 a:hover,
-.wiki-main a:hover,
-a.wiki-link-other:hover,
-a.wiki-link-internal:hover,
-a.wiki-link-external:hover,
-a.wiki-link-category:hover {
+.q-main a:hover,
+a.q-link-other:hover,
+a.q-link-internal:hover,
+a.q-link-external:hover,
+a.q-link-category:hover {
     color: skyblue;
     text-decoration: underline;
 }
 
-pre.wiki-code {
+pre.q-code {
     color: #fff;
     background-color: #222;
     border: 1px solid #444 !important;
     padding: 6px 10px !important; /*override prettyprint */
 }
 
-.wiki-main code, .wiki-main a code {
+.w-main code, .q-main a code {
     background-color: #222;
     padding: 2px 4px;
     border: 1px solid #444 !important;
     border-radius: 3px;
 }
 
-table.wiki-table, table.wiki-table td, table.wiki-table th {
+table.q-table, table.q-table td, table.q-table th {
     border-color: #444;
 }
 
 
-table.wiki-table tr:nth-child(2n) {
+table.q-table tr:nth-child(2n) {
     background-color: #222;
 }
 

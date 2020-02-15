@@ -3,7 +3,10 @@
 @page.created:    1492197580;
 -@page.enable.title;
 
-image { file: junodefault1000.png; }
+image {
+    file: junodefault1000.png;
+    link: none;
+}
 
 sec {
     sec [what is this] {
