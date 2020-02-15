@@ -1,3 +1,3 @@
-# juno.notroll.net
+# juno-website
 
-[quiki](https://github.com/cooper/quiki) based [website](http://juno.notroll.net) for [juno](https://github.com/cooper/juno)
+[quiki](https://github.com/cooper/quiki) based [website](http://juno.mitchellcooper.me) for [juno](https://github.com/cooper/juno)
